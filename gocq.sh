@@ -1,2 +1,3 @@
-sh /home/myr/qqbot/start-gocq.sh
-sh /home/myr/qqbot/gocq.sh
+cd /home/`whoami`/qqbot
+./go-cqhttp faststart
+sh /home/`whoami`/qqbot/gocq.sh

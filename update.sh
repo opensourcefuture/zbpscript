@@ -1,1 +1,10 @@
-wget -O /home/myr/qqbot/qqbot.sh http://3k8hzvh3r37by.cfc-execute.bj.baidubce.com/test/qqbot.sh && wget -O /home/myr/qqbot/gocq.tar.gz https://github.com/Mrs4s/go-cqhttp/releases/latest/download/go-cqhttp_linux_amd64.tar.gz  && wget -O /home/myr/qqbot/zbp.tar.gz https://github.com/opensourcefuture/ZeroBot-Plugin/releases/latest/download/zbp_linux_amd64.tar.gz  && tar -xzvf /home/myr/qqbot/gocq.tar.gz -C /home/myr/qqbot/ && tar -xzvf /home/myr/qqbot/zbp.tar.gz  -C /home/myr/qqbot/ && rm /home/myr/qqbot/gocq.tar.gz  /home/myr/qqbot/zbp.tar.gz LICENSE README.md && mkdir -p /home/myr/qqbot/data/control && wget -O /home/myr/qqbot/data/control/plugins.db http://3k8hzvh3r37by.cfc-execute.bj.baidubce.com/test/plugins.db && echo "Update successfully"
+echo "Updateing"
+wget -O /home/`whoami`/qqbot/qqbot.sh https://raw.githubusercontent.com/MayuriNFC/zbpscript/main/qqbot.sh
+wget -O /home/`whoami`/qqbot/gocq.tar.gz https://github.com/Mrs4s/go-cqhttp/releases/latest/download/go-cqhttp_linux_amd64.tar.gz
+wget -O /home/`whoami`/qqbot/zbp.tar.gz https://github.com/opensourcefuture/ZeroBot-Plugin/releases/latest/download/zbp_linux_amd64.tar.gz
+tar -xzvf /home/`whoami`/qqbot/gocq.tar.gz -C /home/`whoami`/qqbot/
+tar -xzvf /home/`whoami`/qqbot/zbp.tar.gz  -C /home/`whoami`/qqbot/
+rm /home/`whoami`/qqbot/gocq.tar.gz  /home/`whoami`/qqbot/zbp.tar.gz /home/`whoami`/qqbot/LICENSE /home/`whoami`/qqbot/README.md
+mkdir -p /home/`whoami`/qqbot/data/control
+wget -O /home/`whoami`/qqbot/data/control/plugins.db http://3k8hzvh3r37by.cfc-execute.bj.baidubce.com/test/plugins.db
+echo "Update successfully"

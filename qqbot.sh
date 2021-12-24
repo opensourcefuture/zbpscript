@@ -1,1 +1,6 @@
-mkdir -p /home/myr/qqbot/logs && wget -O /home/myr/qqbot/gocq.sh https://mayuri-tfo.glitch.me/test/gocq.sh && wget -O /home/myr/qqbot/start-gocq.sh https://mayuri-tfo.glitch.me/test/start-gocq.sh && wget -O /home/myr/qqbot/zbp.sh https://mayuri-tfo.glitch.me/test/zbp.sh && wget -O /home/myr/qqbot/start-zbp.sh https://mayuri-tfo.glitch.me/test/start-zbp.sh && wget -O /home/myr/qqbot/update.sh https://mayuri-tfo.glitch.me/test/update.sh && echo "successfully download"
+echo "This_scrpit_will_install_zbp_to_ /home/`whoami`/qqbot/"
+mkdir -p /home/`whoami`/qqbot/logs
+wget -O /home/`whoami`/qqbot/gocq.sh https://raw.githubusercontent.com/MayuriNFC/zbpscript/main/gocq.sh
+wget -O /home/`whoami`/qqbot/zbp.sh https://raw.githubusercontent.com/MayuriNFC/zbpscript/main/zbp.sh
+wget -O /home/`whoami`/qqbot/update.sh https://raw.githubusercontent.com/MayuriNFC/zbpscript/main/update.sh 
+echo "successfully download"

@@ -1,2 +1,3 @@
-sh /home/myr/qqbot/start-zbp.sh
-sh /home/myr/qqbot/zbp.sh
+cd /home/`whoami`/qqbot/
+./zbp -d
+sh /home/`whoami`/qqbot/zbp.sh
