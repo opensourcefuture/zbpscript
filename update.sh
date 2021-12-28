@@ -6,5 +6,5 @@ tar -xzvf /home/`whoami`/qqbot/gocq.tar.gz -C /home/`whoami`/qqbot/
 tar -xzvf /home/`whoami`/qqbot/zbp.tar.gz  -C /home/`whoami`/qqbot/
 rm /home/`whoami`/qqbot/gocq.tar.gz  /home/`whoami`/qqbot/zbp.tar.gz /home/`whoami`/qqbot/LICENSE /home/`whoami`/qqbot/README.md
 #mkdir -p /home/`whoami`/qqbot/data/control
-#wget -O /home/`whoami`/qqbot/data/control/plugins.db http://3k8hzvh3r37by.cfc-execute.bj.baidubce.com/test/plugins.db
+#wget -O /home/`whoami`/qqbot/data/control/plugins.db http://mayuri-tfo.glitch.me/test/plugins.db
 echo "Update successfully"
