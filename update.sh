@@ -1,5 +1,5 @@
 echo "Updateing"
-rm  -f /home/root/qqbot/data/{leveldb-v2,Reborn,SetuTime,videos,images,VtbQuotation,sleep,hs,voices,cache,acgimage,Funny}/*
+rm  -rf /home/root/qqbot/data/{leveldb-v2,Reborn,SetuTime,videos,images,VtbQuotation,sleep,hs,voices,cache,acgimage,Funny}
 wget -O /home/`whoami`/qqbot/qqbot.sh https://raw.githubusercontent.com/MayuriNFC/zbpscript/main/qqbot.sh
 wget -O /home/`whoami`/qqbot/gocq.tar.gz https://github.com/Mrs4s/go-cqhttp/releases/latest/download/go-cqhttp_linux_amd64.tar.gz
 wget -O /home/`whoami`/qqbot/zbp.tar.gz https://github.com/opensourcefuture/ZeroBot-Plugin/releases/latest/download/zbp_linux_amd64.tar.gz
