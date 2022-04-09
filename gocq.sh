@@ -1,4 +1,4 @@
-cd /home/`whoami`/qqbot
-rm  -rf /home/root/qqbot/data/{leveldb-v2,Reborn,SetuTime,videos,images,VtbQuotation,sleep,hs,voices,cache,acgimage,Funny}
+cd ~/qqbot
+rm  -rf ~/qqbot/data/{leveldb-v2,Reborn,videos,images,voices,cache,Funny}
 ./go-cqhttp faststart
-sh /home/`whoami`/qqbot/gocq.sh
+sh ~/qqbot/gocq.sh
