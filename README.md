@@ -2,9 +2,8 @@
 自己用脚本写的`linux平台`进程守护
 >方便在Linux进行`gocq`+`zbp`部署
 
-会在/home/用户名/qqbot进行部署
+会在`~/qqbot`进行部署
 >仅供参考
-
 
 先运行`qqbot.sh`以下载其余脚本
 
